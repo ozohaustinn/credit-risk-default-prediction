@@ -83,10 +83,7 @@ credit-risk-default-prediction/
 │ └── credit_card_default.csv
 │
 ├── notebooks/
-│ ├── 01_data_exploration.ipynb
-│ ├── 02_feature_engineering.ipynb
-│ ├── 03_modeling.ipynb
-│ └── 04_model_evaluation.ipynb
+│ ├── credit_risk_model.ipynb
 │
 ├── reports/
 │ └── credit_risk_model_report.pdf
