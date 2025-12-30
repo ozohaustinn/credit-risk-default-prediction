@@ -74,4 +74,52 @@ Observed default rates increased monotonically across these bands, validating th
 - Model outputs suitable for credit decisioning and risk segmentation
 
 
+## Repository Structure
 
+credit-risk-default-prediction/
+│
+├── data/
+│ └── raw/
+│ └── credit_card_default.csv
+│
+├── notebooks/
+│ ├── 01_data_exploration.ipynb
+│ ├── 02_feature_engineering.ipynb
+│ ├── 03_modeling.ipynb
+│ └── 04_model_evaluation.ipynb
+│
+├── reports/
+│ └── credit_risk_model_report.pdf
+│
+├── requirements.txt
+└── README.md
+
+
+---
+
+## Tools & Libraries
+- Python
+- pandas, numpy
+- scikit-learn
+- matplotlib, seaborn
+
+---
+
+## Key Takeaways
+- Credit risk modeling prioritizes risk ranking and interpretability over accuracy
+- Class imbalance handling and threshold selection are critical
+- Risk band validation provides strong evidence of model usefulness in real-world credit decisioning
+
+---
+
+## Future Enhancements
+- Compare performance with non-linear models (Gradient Boosting, Random Forest)
+- Perform probability calibration
+- Incorporate business cost and expected loss analysis
+- Extend to stress testing scenarios
+
+---
+
+## Author
+Augustine Ozoemena 
+Credit Risk / Data Science Portfolio Project
